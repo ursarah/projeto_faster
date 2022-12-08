@@ -6,7 +6,7 @@
     /* list-style: none;
     outline: 1px solid red; */
 }
-header{
+header{ 
     height: 135px;
     display: flex;
     align-items: center;
@@ -30,11 +30,7 @@ header nav a:hover{
     color: #F24B78;
     transition: .3s;
 }
-header button a{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-}
+
 header button{
     background-color: #F24B78;
     border: 0;
@@ -45,4 +41,54 @@ header button{
 header button:hover{
     background-color: #c43f62;
     transition: .4s;
+}
+button a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+main{
+    height: 100vh;
+}
+section img{
+    height: 40%;
+}
+main section .principal{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+section #texto1{
+    text-align: center;
+    line-height: 4em;
+}
+section #texto1 h3{
+    font-size: 2em;
+    font-family: 'Inter', sans-serif;
+    color: #030140;
+}
+section #texto1 .finas{
+    font-weight: 500;
+}
+section #texto1 .bold{
+    font-weight: 900;
+    font-size: 3em;
+}
+section .principal #texto1{
+    align-self: center;
+}
+section .principal #mulher{
+    align-self: baseline;
+}
+#texto1 button{
+    background-color: #030140;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+}
+#texto1 button:hover{
+    background-color: #F24B78;
+    transition: .5s;
+    border: none;
+    cursor: pointer;
 }
