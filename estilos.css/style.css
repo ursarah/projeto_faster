@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 header{ 
     height: 135px;
@@ -48,72 +48,99 @@ button a{
     font-size: 1.5em;
 }
 main{
-    height: 100vh;
+    width: 100%;
 }
 section img{
     height: 40%;
 }
-section #mulher{
-    align-self: flex-end;
-}
-section .principal{
+main section .container{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     height: 100vh;
 }
-section #texto1{
+section .intro{
     text-align: center;
     line-height: 4em;
 }
-section #texto1 h3{
+section .intro h3{
     font-size: 2em;
     font-family: 'Inter', sans-serif;
     color: #030140;
 }
-section #texto1 .finas{
+section .intro .finas{
     font-weight: 500;
 }
-section #texto1 .bold{
+section .intro .bold{
     font-weight: 900;
     font-size: 3em;
 }
-section .principal #texto1{
+section .container .intro{
     align-self: center;
 }
-#texto1 button{
+section .container .mulher{
+    align-self: flex-end;
+}
+.intro button{
     background-color: #030140;
     width: 500px;
     height: 50px;
     border-radius: 30px;
 }
-#texto1 button:hover{
+.intro button:hover{
     background-color: #F24B78;
     transition: .5s;
     border: none;
     cursor: pointer;
 }
-section .titulo-design{
+.section2{
+    max-width: 1550px;
+    margin: auto;
+}
+section .design{
+    display: flex;
     color: #030140;
     font-family: 'Inter', sans-serif;
     font-weight: 700px;    
     font-size: 45px;
-    text-align: center;
-}
-.titulo-design h1{
-    padding: 0 -5px;
-    margin-bottom: 100px;
+    justify-content: center;
+    margin: 100px 0;
 }
 .secundaria{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+    display:flex;
     font-family: 'Inter', sans-serif;
 }
-.secundaria span h3{
-    font-weight: 500;
+.secundaria h3{
+    font-weight: 600;
+    font-size: 1.8em;
+    font-style: oblique;
+    color: #030140;
+}
+.secundaria p{
+    font-size: 1.5em;
+    color: #030140;
 }
 
-.secundaria span img{
+.secundaria img{
     width: 50%;
     height: 50%;
+}
+
+
+
+
+@media (max-width: 800px){
+    header nav, header button{
+        display: none;
+    }
+    section .container{
+        display: block;
+        
+    }
+    .container .intro{
+        margin: 40px 0;
+    }
+    section .container .img-principal{
+        width: 100%;
+    }
 }
