@@ -125,6 +125,9 @@ section .design{
     width: 50%;
     height: 50%;
 }
+section .container-pat{
+    background-color: #05016e;
+}
 
 
 
