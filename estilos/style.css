@@ -152,6 +152,16 @@ section .design{
     margin: auto;
     padding: 0 30px;
 }
+.container-pat div{
+    text-align: center;
+}
+.section3 .title-final{
+    text-align: center;
+}
+.section3 .title-final h1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
 
 
 
