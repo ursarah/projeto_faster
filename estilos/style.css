@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 header{ 
     height: 135px;
@@ -50,6 +50,11 @@ button a{
 main{
     width: 100%;
 }
+
+h1, h2, h3, p{
+    font-family: 'Inter', sans-serif;
+
+}
 section img{
     height: 40%;
 }
@@ -65,7 +70,6 @@ section .intro{
 }
 section .intro h3{
     font-size: 2em;
-    font-family: 'Inter', sans-serif;
     color: #030140;
 }
 section .intro .finas{
@@ -93,22 +97,20 @@ section .container .mulher{
     border: none;
     cursor: pointer;
 }
-.section2{
-    max-width: 1550px;
-    margin: auto;
-}
 section .design{
     display: flex;
     color: #030140;
-    font-family: 'Inter', sans-serif;
     font-weight: 700px;    
     font-size: 45px;
     justify-content: center;
     margin: 100px 0;
 }
+.section2, .section4{
+    max-width: 1750px;
+    margin: auto;
+}
 .secundaria{
     display:flex;
-    font-family: 'Inter', sans-serif;
     margin-bottom: 100px;
 }
 .secundaria div{
@@ -130,14 +132,14 @@ section .design{
 }
 .section3{
     background-color: #05016e;
+    padding: 100px 0;
 }
 .title{
     display: flex;
     justify-content: center;
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
 .title h1{
-    font-family: 'Inter', sans-serif;
     font-size: 50px;
     color: white;
 }
@@ -159,10 +161,33 @@ section .design{
     text-align: center;
 }
 .section3 .title-final h1{
-    font-family: 'Inter', sans-serif;
     color: white;
 }
-
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding: 200px 0;
+    
+}
+.section4 img{
+    width: 100vh;
+    height: 100vh;
+}
+.section4 div{
+    padding-left: 100px;
+}
+.section4 h1{
+    color: #F24B78;
+    font-size: 3em;
+}
+.section4 h2{
+    color: #05016e;
+    font-size: 2em;
+}
+.section4 p{
+    color: #05016e;
+    font-size: 1.5em;
+}
 
 
 
