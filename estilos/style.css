@@ -4,6 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Inter', sans-serif;
+    color: #030140;
     outline: 1px solid red;
 }
 header{ 
@@ -51,10 +53,6 @@ main{
     width: 100%;
 }
 
-h1, h2, h3, p{
-    font-family: 'Inter', sans-serif;
-
-}
 section img{
     height: 40%;
 }
@@ -97,34 +95,30 @@ section .container .mulher{
     border: none;
     cursor: pointer;
 }
+.section2, .section4{
+    max-width: 1750px;
+    margin: auto;
+}
 section .design{
     display: flex;
-    color: #030140;
     font-weight: 700px;    
     font-size: 45px;
     justify-content: center;
     margin: 100px 0;
 }
-.section2, .section4{
-    max-width: 1750px;
-    margin: auto;
-}
 .secundaria{
-    display:flex;
+    display: flex;
     margin-bottom: 100px;
-}
-.secundaria div{
-    padding: 0 20px;    
+    padding: 0 20px; 
+    text-align: center;   
 }
 .secundaria h3{
     font-weight: 600;
     font-size: 1.8em;
-    color: #030140;
     padding: 10px 0;
 }
 .secundaria p{
     font-size: 1.5em;
-    color: #030140;
 }
 
 .secundaria img{
