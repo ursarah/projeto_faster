@@ -14,237 +14,254 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/favicon_ft.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Faster</title>
 </head>
 <body>
     <header>
-            <a href=""><img class="logo" src="imagens/logos/logo_header.png" alt="Logo Faster"></a>
-        <nav>
-            <a href=""><strong>Home</strong></a>
-            <a href="">Como Funciona</a>
-            <a href="">Sobre Nós</a>
-        </nav>
-        <button><a href="">Agendar 20-min</a></button>
+        <div class="header-container">
+            <a href=""><img src="image/logos/logo_header.png" alt="Logo Faster"></a>
+            <nav class="header-navbar">
+                <a class="item" href=""><strong>Home</strong></a>
+                <a class="item" href="">Como Funciona</a>
+                <a class="item" href="">Sobre Nós</a>
+            </nav>
+            <a class="btn-header" href=""><button>Agendar 20-min</button></a>
+        </div>
     </header>
+
     <main>
-        <section>
-            <div class="container active">
-                <div><img class="img-principal" src="imagens/avulsas/pessoas.png" alt="pessoas"></div>
-                <div class="intro">
-                    <h3 class="finas">Aproveite o talento de designers profissionais.</h3> 
-                    <h3 class="bold">Impulsione sua equipe de</h3>
-                    <!-- Animação de palavras -->
-                    <h3 class="finas">Designers talentosos. Entregas rápidas.</h3>
-                    <button><a href="">Agende uma apresentação de 20-min</a></button>
+        <section class="intro">
+            <div class="intro-container">
+                <div class="intro-image">
+                    <img src="image/avulsas/pessoas.png" alt="pessoas">
                 </div>
-                <div><img class="img-principal mulher" src="imagens/avulsas/mulher_pc.png" alt=""></div>
+                <div class="intro-content">
+                    <h3>Aproveite o talento de designers profissionais.</h3> 
+                    <h3>Impulsione sua equipe de</h3>
+                    <!-- Animação de palavras -->
+                    <h3>Designers talentosos. Entregas rápidas.</h3>
+                    <a class="btn-main" href=""><button>Agende uma apresentação de 20-min</button></a>
+                </div>
+                <div class="intro-image">
+                    <img src="image/avulsas/mulher_pc.png" alt="">
+                </div>
             </div> 
         </section>
-        <section class="section2">            
-                    <div class="design">
-                        <h1>Design como você nunca viu</h1>
-                    </div>
-                    <div class="secundaria">
-                        <div>
-                            <img src="imagens/box1/mais_barato.png" alt="">
-                            <h3>Mais Barato</h3>
-                            <p>
-                                1/4 do custo de uma
-                                agência tradicional.
-                            </p>
-                        </div>
-                        <div>
-                            <img src="imagens/box1/mais_rapido.png" alt="">
-                            <h3>Mais rápido</h3>
-                            <p>
-                                Entregas em menos
-                                de 24 horas.
-                            </p>
-                        </div>
-                        <div>
-                            <img src="imagens/box1/mais_facil.png" alt="">
-                            <h3>Mais fácil</h3>
-                            <p>
-                                Briefings em menos
-                                de 20 minutos.
-                            </p>
-                        </div>
-                        <div>
-                            <img src="imagens/box1/mais_confiavel.png" alt="">
-                            <h3>Mais confiável</h3>
-                            <p>
-                                Time multidisciplinar
-                                que garante as entregas
-                            </p>.
-                        </div>
-                        <div>
-                            <img src="imagens/box1/tempo_contratacao.png" alt="">
-                            <h3>Tempo de contratação</h3>
-                            <p>
-                                De 60-90 dias
-                                para 24 horas.
-                        </div>
-                    </div>
+
+        <section class="design">  
+            <div class="design-title">            
+                <h1>Design como você nunca viu</h1>
+            </div>
+            <div class="design-container">
+                <div>
+                    <img src="image/box1/mais_barato.png" alt="">
+                    <h3>Mais Barato</h3>
+                    <p>
+                        1/4 do custo de uma
+                        agência tradicional.
+                    </p>
+                </div>
+                <div>
+                    <img src="image/box1/mais_rapido.png" alt="">
+                    <h3>Mais rápido</h3>
+                    <p>
+                        Entregas em menos
+                        de 24 horas.
+                    </p>
+                </div>
+                <div>
+                    <img src="image/box1/mais_facil.png" alt="">
+                    <h3>Mais fácil</h3>
+                    <p>
+                        Briefings em menos
+                        de 20 minutos.
+                    </p>
+                </div>
+                <div>
+                    <img src="image/box1/mais_confiavel.png" alt="">
+                    <h3>Mais confiável</h3>
+                    <p>
+                        Time multidisciplinar
+                        que garante as entregas
+                    </p>.
+                </div>
+                <div>
+                    <img src="image/box1/tempo_contratacao.png" alt="">
+                    <h3>Tempo de contratação</h3>
+                    <p>
+                        De 60-90 dias
+                        para 24 horas.
+                </div>
+            </div>
         </section>
-        <section class="section3">
-            <div class="title">
-                <h1>Confiam na <img src="imagens/logos/logo2.png" alt="logo faster">
-                </h1>
+
+        <section class="partners">
+            <div class="partners-title">
+                <h1>Confiam na <img src="image/logos/logo2.png" alt="logo faster"></h1>
             </div>
-            <div class="container-pat">
+            <div class="partners-images">
                 <div>
-                    <img src="imagens/patrocinadores/ambev.png" alt="ambev">
+                    <img src="image/patrocinadores/ambev.png" alt="ambev">
                 </div>
                 <div>
-                    <img src="imagens/patrocinadores/warner.png" alt="wanner">
+                    <img src="image/patrocinadores/warner.png" alt="wanner">
                 </div>
                 <div>
-                    <img src="imagens/patrocinadores/forno-de-minas.png" alt="forno de minas"></div>
+                    <img src="image/patrocinadores/forno-de-minas.png" alt="forno de minas"></div>
                 <div>
-                    <img src="imagens/patrocinadores/loreal.png" alt="loreal">
+                    <img src="image/patrocinadores/loreal.png" alt="loreal">
                 </div>
                 <div>
-                    <img src="imagens/patrocinadores/sap.png" alt="sap">
+                    <img src="image/patrocinadores/sap.png" alt="sap">
                 </div>
                 <div>
-                    <img src="imagens/patrocinadores/hotmart.png" alt="hotmart">
+                    <img src="image/patrocinadores/hotmart.png" alt="hotmart">
                 </div>
                 <div>
-                    <img src="imagens/patrocinadores/tetra-pak.png" alt="tetra park">
+                    <img src="image/patrocinadores/tetra-pak.png" alt="tetra park">
                 </div>
                 <div>
-                    <img src="imagens/patrocinadores/ifood.png" alt="ifood">
+                    <img src="image/patrocinadores/ifood.png" alt="ifood">
                 </div>
             </div>
-            <div class="title-final">
+            <div class="partners-footer">
                 <h1>+ outras 70 empresas incríveis</h1>
             </div>
         </section>
-        <section class="section4">
-            <div>
-                <img src="imagens/avulsas/planos.png" alt="">
+        <section class="plans">
+            <div class="plans-image">
+                <img src="image/avulsas/planos.png" alt="">
             </div>
-            <div>
+            <div class="plans-container">
                 <h1>Ideal para</h1>
-                <h2>Empresas com equipes enxutas</h2>
-                <p>Tenha um time de designers profissionais, sem as dores de aumentar headcount.</p>
+                <div>
+                    <h2>Empresas com equipes enxutas</h2>
+                    <p>Tenha um time de designers profissionais, sem as dores de aumentar headcount.</p>
+                </div>
 
-                <h2>Times de Marketing</h2>
-                <p>
-                    Com alta demanda de design gráfico,
-                    sabemos o quão difícil é escalar a produção e estamos a postos para ajudá-los.
-                </p>
+                <div>
+                    <h2>Times de Marketing</h2>
+                    <p>Com alta demanda de design gráfico, sabemos o quão difícil é escalar a produção e estamos a postos para ajudá-los.</p>
+                </div>
 
-                <h2>Times de Comunicação</h2>
-                <p>Deixe conosco a criação de peças e dedique mais tempo para pensar em estratégias incríveis.</p>
+                <div>
+                    <h2>Times de Comunicação</h2>
+                    <p>Deixe conosco a criação de peças e dedique mais tempo para pensar em estratégias incríveis.</p>
+                </div>
 
-                <h2>Time de Pessoas</h2>
-                <p>Invista seus esforços em encantar seu time enquanto produzimos peças de design de tirar o fôlego.</p>
+                <div>
+                    <h2>Time de Pessoas</h2>
+                    <p>Invista seus esforços em encantar seu time enquanto produzimos peças de design de tirar o fôlego.</p>
+                </div>
 
-                <h2>Qualquer Empresa</h2>
-                <p>Que precise de uma ajuda extra para produzir todas as demandas de comunicação visual.</p>
+                <div>
+                    <h2>Qualquer Empresa</h2>
+                    <p>Que precise de uma ajuda extra para produzir todas as demandas de comunicação visual.</p>
+                </div>
 
-                <h2>Agências de Publicidade</h2>
-                <p>Somos o parceiro ideal para ajudar agências com picos de demanda na produção de design gráfico para grandes campanhas.</p>       
+                <div>
+                    <h2>Agências de Publicidade</h2>
+                    <p>Somos o parceiro ideal para ajudar agências com picos de demanda na produção de design gráfico para grandes campanhas.</p>
+                </div>       
             </div>
         </section>
-        <section class="section5">
-            <div class="text">
-                <h1>Como Funciona</h1>
-                <p>
-                    Ao invés de depender de freelancers que não conhecem a fundo seu time e de agências que podem comprometer seu orçamento anual, sem atender a agilidade que sua equipe precisa, mais de 70 empresas já usam a Faster para otimizar suas equipes de comunicação. Deixe que a gente cuide da produção de peças de design gráfico.
-                </p>
 
-                <p>Escolha o melhor plano para seu time e saia pedindo peças de design com qualidade e velocidade.</p>
+        <section class="fuction">
+            <div class="fuction-container">
+                <div>
+                    <h1>Como Funciona</h1>
+                    <p>
+                        Ao invés de depender de freelancers que não conhecem a fundo seu time e de agências que podem comprometer seu orçamento anual, sem atender a agilidade que sua equipe precisa, mais de 70 empresas já usam a Faster para otimizar suas equipes de comunicação. Deixe que a gente cuide da produção de peças de design gráfico.
+                    </p>
+                    <p>Escolha o melhor plano para seu time e saia pedindo peças de design com qualidade e velocidade.</p>
+                </div>
+                <div>
+                    <img src="image/avulsas/como-funciona.png" alt="">
+                </div>
+                <div>
+                    <ol>
+                        <li>
+                            Marque uma <strong>call de 20 minutos</strong> com nosso time e conte um pouco mais sobre suas necessidades com design gráfico.
+                        </li>
+                        <li>
+                            <strong>Escolha um plano</strong> que melhor se adeque à sua realidade.
+                        </li>
+                        <li>
+                            Em menos de <strong>1 dia</strong> você já pode pedir qualquer peça de design para executar suas estratégias.</li>
+                        <li>
+                            <strong>Gerencie tudo através de uma plataforma</strong> de alto nível como você nunca viu antes.
+                        </li>
+                    </ol>
+                    <a class="btn-main" href=""><button>Agende uma apresentação de 20-min</button>a>
+                </div>
             </div>
         </section>
-        <section class="section6">
-            <div class="funciona">
-                <img src="imagens/avulsas/como-funciona.png" alt="">
-            </div>  
-            <div class="lista">
-                <ol>
-                    <li>
-                        Marque uma <strong>call de 20 minutos</strong> com nosso time e conte um pouco mais sobre suas necessidades com design gráfico.
-                    </li>
-                    <li>
-                        <strong>Escolha um plano</strong> que melhor se adeque à sua realidade.
-                    </li>
-                    <li>
-                        Em menos de <strong>1 dia</strong> você já pode pedir qualquer peça de design para executar suas estratégias.</li>
-                    <li>
-                        <strong>Gerencie tudo através de uma plataforma</strong> de alto nível como você nunca viu antes.
-                    </li>
-                </ol>
-                <button><a href="">Agende uma apresentação de 20-min</a></button>
-            </div>
-            
-            
-        </section>
-        <div class="title-mid">
+        <div>
             <h1>Atendemos todas as suas demandas de design</h1>
         </div>
-        <section class="mid-section">
-            <div>
-                <img src="imagens/box2/social-media.png" alt="">
-                <p>Social Media</p>
-            </div>
-            <div>
-                <img src="imagens/box2/com-interna.png" alt="">
-                <p>Comunicação Interna</p>
-            </div>
-            <div>
-                <img src="imagens/box2/banners.png" alt="">
-                <p>Banners</p>
-            </div>
-            <div>
-                <img src="imagens/box2/apres.png" alt="">
-                <p>Apresentações</p>
-            </div>
-            <div>
-                <img src="imagens/box2/papelaria.png" alt="">
-                <p>Papelaria</p>
-            </div>
-            <div>
-                <img src="imagens/box2/identi.png" alt="">
-                <p>Identidade Visual</p>
-            </div>
-            <div>
-                <img src="imagens/box2/criativas.png" alt="">
-                <p>Soluções Criativas</p>
-            </div>
-            <div>
-                <img src="imagens/box2/desdob.png" alt="">
-                <p>Desdobramentos</p>
+
+        <section class="demands">
+            <div class="demands-container">
+                <div>
+                    <img src="image/box2/social-media.png" alt="">
+                    <p>Social Media</p>
+                </div>
+                <div>
+                    <img src="image/box2/com-interna.png" alt="">
+                    <p>Comunicação Interna</p>
+                </div>
+                <div>
+                    <img src="image/box2/banners.png" alt="">
+                    <p>Banners</p>
+                </div>
+                <div>
+                    <img src="image/box2/apres.png" alt="">
+                    <p>Apresentações</p>
+                </div>
+                <div>
+                    <img src="image/box2/papelaria.png" alt="">
+                    <p>Papelaria</p>
+                </div>
+                <div>
+                    <img src="image/box2/identi.png" alt="">
+                    <p>Identidade Visual</p>
+                </div>
+                <div>
+                    <img src="image/box2/criativas.png" alt="">
+                    <p>Soluções Criativas</p>
+                </div>
+                <div>
+                    <img src="image/box2/desdob.png" alt="">
+                    <p>Desdobramentos</p>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-            <div class="footer-main">
-                <div>
-                    <img src="imagens/logos/footer-logo.png" alt="">
-                </div>
-                <div class="radio">
-                    <img src="imagens/avulsas/radio.png" alt="">
-                    <button><a href="">Agendar 20-min</a></button>
-                </div>
-                <nav>
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <a href="">Como Funciona</a>
-                    </li>
-                    <li>
-                        <a href="">Sobre Nós</a>
-                    </li>
-                </nav>
+        <div class="footer-container">
+            <div>
+                <img src="image/logos/footer-logo.png" alt="">
             </div>
-            <div class="footer-social">
-
-                <p>©2022 Faster. Todos os direitos reservados.</p>
+            <div>
+                <img src="image/avulsas/radio.png" alt="">
+                <a class="btn-footer" href=""><button>Agendar 20-min</button></a>
             </div>
+            <nav>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Como Funciona</a>
+                </li>
+                <li>
+                    <a href="">Sobre Nós</a>
+                </li>
+            </nav>
+        </div>
+        <div>
+            <p>©2022 Faster. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
