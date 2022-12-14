@@ -43,4 +43,46 @@ header{
     transition: .3s;
     cursor: pointer;
 }
-
+.intro-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    min-height: 100vh;
+    min-width: 90vw;
+}
+.intro-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.intro-content h3{
+    font-size: 2em;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.intro-content h4{
+    font-weight: 900;
+    font-size: 3em;
+}
+.intro-women{
+    position: absolute;
+    top: 50%;
+    left: 76%;
+}
+.btn-main button{
+    background-color: #030140; 
+    color: white;
+    font-family: 'Poppins', sans-serif;   
+    font-size: 1.5em;
+    width: 550px;
+    height: 50px;
+    border-radius: 30px;
+}
+.btn-main button:hover{
+    background-color: #F24B78;
+    transition: .5s;
+    border: none;
+    cursor: pointer;
+}
