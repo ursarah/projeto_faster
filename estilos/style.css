@@ -5,7 +5,13 @@
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: #030140;
-    outline: 1px solid red;
+}
+strong{
+    color: #F24B78;
+}
+.section2, .section4, .section5, .section6, .mid-section{
+    max-width: 1750px;
+    margin: auto;
 }
 header{ 
     height: 135px;
@@ -18,14 +24,12 @@ header{
 .logo{
     width: 200px;
 }
-header nav strong{
-    color: #F24B78;
-}
 header nav a{
     margin: auto; 
     font-family: 'Montserrat', sans-serif;
     color: #373F41;
     font-size: 1.1em;
+    padding: 0 10px;
 }
 header nav a:hover{
     color: #F24B78;
@@ -94,10 +98,7 @@ section .container .intro{
 section .container .mulher{
     align-self: flex-end;
 }
-.section2, .section4, .section5, .section6{
-    max-width: 1750px;
-    margin: auto;
-}
+
 section .design{
     display: flex;
     font-weight: 700px;    
@@ -147,16 +148,13 @@ section .design{
     margin: auto;
     padding: 0 30px;
 }
-.container-pat div{
+.container-pat div, .title-final{
     text-align: center;
 }
-.section3 .title-final{
-    text-align: center;
-}
-.section3 .title-final h1{
+.title-final h1{
     color: white;
 }
-.section4 {
+.section4{
     display: flex;
     justify-content: center;
     padding: 200px 0;
@@ -184,10 +182,46 @@ section .design{
     color: #05016e;
     font-size: 1.5em;
 }
+.title-mid{
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 100px;
+}
+.mid-section{    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.mid-section img{
+    width: 200px;
+}
+.mid-section div{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    justify-items: center;
+    box-shadow: 1px 2px 4px 1px rgb(143, 141, 141);
+}
+.mid-section img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.mid-section p{
+    font-size: 1.6em;
+}
+
+
+
+
 .text{
     text-align: center;
     width: 1000px;
-    margin: auto;
+    margin: 60px auto;
 }
 .text h1{
     font-size: 3em;
@@ -258,18 +292,32 @@ footer button{
 
 
 
-@media (max-width: 800px){
-    header nav, header button{
+@media (max-width: 1400px){
+     .mulher{
         display: none;
     }
+
     section .container{
         display: block;
-        
+        margin: 100px 0;
+    }
+    .secundaria{
+        display: grid;
+        grid-template-columns: auto auto;
     }
     .container .intro{
         margin: 40px 0;
     }
-    section .container .img-principal{
+    .container-pat{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .section4{
+        display: block;
+        width: 100vh;
+        margin: auto;
+    }
+    .section4 img{
         width: 100%;
     }
 }
