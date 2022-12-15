@@ -132,3 +132,13 @@ header{
     text-align: center;
     padding-top: 50px;
 }
+.plans{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+}
