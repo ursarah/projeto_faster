@@ -48,7 +48,6 @@ header{
     justify-content: space-between;
     position: relative;
     min-height: 100vh;
-    min-width: 90vw;
 }
 .intro-content{
     position: absolute;
@@ -85,4 +84,51 @@ header{
     transition: .5s;
     border: none;
     cursor: pointer;
+}
+.design{
+    width: 90%;
+    margin: 100px auto;
+}
+.design-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5em;
+    padding: 0 0 100px 0;
+}
+.design-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 20px;
+}
+.design-container div{
+    text-align: center;
+}
+.design-container h3{
+    font-size: 1.8em;
+}
+.design-container p{
+    font-size: 1.5em;
+}
+.partners{
+    background-color: #030140;
+    margin: 100px auto;
+    padding: 100px 0;
+}
+.partners-title{
+    text-align: center;
+    font-size: 2em;
+    padding: 0 0 100px 0;
+}
+.partners-title h1, .partners-footer h2{
+    color: white;
+}
+.partners-images{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    row-gap: 100px;
+}
+.partners-footer{
+    text-align: center;
+    padding-top: 50px;
 }
